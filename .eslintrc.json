@@ -26,6 +26,7 @@
         "react/no-unknown-property": "off",
         "react/self-closing-comp": "off",
         "react/jsx-one-expression-per-line": "off",
-        "react/jsx-closing-tag-location": "off"
+        "react/jsx-closing-tag-location": "off",
+        "linebreak-style": "off"
     }
 }
