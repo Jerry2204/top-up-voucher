@@ -27,6 +27,7 @@
         "react/self-closing-comp": "off",
         "react/jsx-one-expression-per-line": "off",
         "react/jsx-closing-tag-location": "off",
-        "linebreak-style": "off"
+        "linebreak-style": "off",
+        "jsx-a11y/anchor-is-valid": "off"
     }
 }
