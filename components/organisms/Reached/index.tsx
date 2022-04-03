@@ -12,24 +12,10 @@ export default function Reached() {
           <ReachedItem value="12.500" desc="Games Available" />
           <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block"></div>
           <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none"></div>
-          <div className="me-lg-35 ms-lg-35">
-            <p className="text-4xl text-lg-start text-center color-palette-1 fw-bold m-0">
-              99,9%
-            </p>
-            <p className="text-lg text-lg-start text-center color-palette-2 m-0">
-              Happy Players
-            </p>
-          </div>
+          <ReachedItem value="99,9%" desc="Happy Players" />
           <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block"></div>
           <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none"></div>
-          <div className="me-lg-35 ms-lg-35">
-            <p className="text-4xl text-lg-start text-center color-palette-1 fw-bold m-0">
-              4.7
-            </p>
-            <p className="text-lg text-lg-start text-center color-palette-2 m-0">
-              Rating Worldwide
-            </p>
-          </div>
+          <ReachedItem value="4.7" desc="Rating Worldwide" />
         </div>
       </div>
     </section>
