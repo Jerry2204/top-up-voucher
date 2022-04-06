@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import SignUpForm from '../components/organisms/SignUpForm';
 
@@ -8,9 +9,11 @@ export default function SignUp() {
       <div className="container mx-auto">
         <form action="">
           <div className="pb-50">
-            <a className="navbar-brand" href="../index.html">
-              <Image src="/icon/logo.svg" alt="logo" width={60} height={60} />
-            </a>
+            <Link href="/">
+              <a className="navbar-brand">
+                <Image src="/icon/logo.svg" alt="logo" width={60} height={60} />
+              </a>
+            </Link>
           </div>
           <SignUpForm />
         </form>
