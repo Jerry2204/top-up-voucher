@@ -28,6 +28,7 @@
         "react/jsx-one-expression-per-line": "off",
         "react/jsx-closing-tag-location": "off",
         "linebreak-style": "off",
-        "jsx-a11y/anchor-is-valid": "off"
+        "jsx-a11y/anchor-is-valid": "off",
+        "react/jsx-props-no-spreading": "off"
     }
 }

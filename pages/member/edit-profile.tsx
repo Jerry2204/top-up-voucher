@@ -1,4 +1,5 @@
 import React from 'react';
+import Input from '../../components/atoms/Input';
 import Sidebar from '../../components/organisms/Sidebar';
 
 export default function EditProfile() {
@@ -41,52 +42,13 @@ export default function EditProfile() {
                 </div>
               </div>
               <div className="pt-30">
-                <label
-                  for="name"
-                  className="form-label text-lg fw-medium color-palette-1 mb-10"
-                >
-                  Full Name
-                </label>
-                <input
-                  type="text"
-                  className="form-control rounded-pill text-lg"
-                  id="name"
-                  name="name"
-                  aria-describedby="name"
-                  placeholder="Enter your name"
-                />
+                <Input label="Full Name" />
               </div>
               <div className="pt-30">
-                <label
-                  for="email"
-                  className="form-label text-lg fw-medium color-palette-1 mb-10"
-                >
-                  Email Address
-                </label>
-                <input
-                  type="email"
-                  className="form-control rounded-pill text-lg"
-                  id="email"
-                  name="email"
-                  aria-describedby="email"
-                  placeholder="Enter your email address"
-                />
+                <Input label="Email" />
               </div>
               <div className="pt-30">
-                <label
-                  for="phone"
-                  className="form-label text-lg fw-medium color-palette-1 mb-10"
-                >
-                  Phone
-                </label>
-                <input
-                  type="tel"
-                  className="form-control rounded-pill text-lg"
-                  id="phone"
-                  name="phone"
-                  aria-describedby="phone"
-                  placeholder="Enter your phone number"
-                />
+                <Input label="Phone" />
               </div>
               <div className="button-group d-flex flex-column pt-50">
                 <button
