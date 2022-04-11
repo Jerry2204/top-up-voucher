@@ -9,13 +9,21 @@ export default function Sidebar() {
       <div className="content pt-50 pb-30 ps-30">
         <Profile />
         <div className="menus">
-          <MenuItem title="Overview" icon="ic-menu-overview" active />
-          <MenuItem title="Transactions" icon="ic-tote-bag" />
-          <MenuItem title="Messages" icon="ic-message" />
-          <MenuItem title="Card" icon="ic-card" />
-          <MenuItem title="Rewards" icon="ic-reward" />
-          <MenuItem title="Settings" icon="ic-settings" />
-          <MenuItem title="Log Out" icon="ic-shutdown" />
+          <MenuItem title="Overview" icon="ic-menu-overview" href="/" active />
+          <MenuItem
+            title="Transactions"
+            icon="ic-tote-bag"
+            href="/member/transactions"
+          />
+          <MenuItem title="Messages" icon="ic-message" href="/member" />
+          <MenuItem title="Card" icon="ic-card" href="/member" />
+          <MenuItem title="Rewards" icon="ic-reward" href="/member" />
+          <MenuItem
+            title="Settings"
+            icon="ic-settings"
+            href="/member/edit-profile"
+          />
+          <MenuItem title="Log Out" icon="ic-shutdown" href="/sign-in" />
         </div>
         <Footer />
       </div>
