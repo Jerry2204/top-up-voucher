@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import cx from 'classnames';
 
 interface TableRowProps {
   image: string;
@@ -11,6 +12,12 @@ interface TableRowProps {
 
 export default function TableRow(props: TableRowProps) {
   const { image, title, category, item, price, status } = props;
+  const statusClass = cx({
+    'float-start icon-status': true,
+    pending: status === 'Pending',
+    failed: status === 'Failed',
+    success: status === 'Success',
+  });
   return (
     <tr data-category="pending" className="align-middle">
       <th scope="row">
@@ -38,7 +45,7 @@ export default function TableRow(props: TableRowProps) {
       </td>
       <td>
         <div>
-          <span className="float-start icon-status pending"></span>
+          <span className={statusClass}></span>
           <p className="fw-medium text-start color-palette-1 m-0 position-relative">
             {status}
           </p>
