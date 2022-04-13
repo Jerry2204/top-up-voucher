@@ -5,7 +5,7 @@ interface ButtonTabProps {
   active?: boolean;
 }
 
-export default function ButtonTab(props: ButtonTabProps) {
+export default function ButtonTab(props: Partial<ButtonTabProps>) {
   const { title, active } = props;
   const buttonClass = cx({
     'btn btn-status rounded-pill text-sm me-3': true,
