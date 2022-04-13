@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function TransactionDetailContent() {
   return (
     <main className="main-wrapper">
