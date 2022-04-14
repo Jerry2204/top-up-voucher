@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function CheckoutItem() {
   return (
     <div className="game-checkout d-flex flex-row align-items-center pt-md-50 pb-md-50 pt-30 pb-30">
