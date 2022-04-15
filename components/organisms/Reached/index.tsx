@@ -1,4 +1,3 @@
-import React from 'react';
 import ReachedItem from '../../molecules/ReachedItem';
 
 export default function Reached() {

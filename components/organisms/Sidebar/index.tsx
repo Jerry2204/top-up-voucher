@@ -1,4 +1,3 @@
-import React from 'react';
 import Footer from './Footer';
 import Profile from './Profile';
 import MenuItem from './MenuItem';
