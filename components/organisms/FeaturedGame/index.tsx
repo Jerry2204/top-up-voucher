@@ -1,4 +1,3 @@
-import React from 'react';
 import GameItem from '../../molecules/GameItem';
 
 export default function FeaturedGames() {
