@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface ReachedItemProps {
   value: string;
   desc: string;

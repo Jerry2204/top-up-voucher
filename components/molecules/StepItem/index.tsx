@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface StepItemProps {
     icon: 'step1' | 'step2' | 'step3';
     title: String;
