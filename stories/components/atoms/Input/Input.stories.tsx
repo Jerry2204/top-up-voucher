@@ -6,6 +6,9 @@ export default {
   component: Input,
 } as Meta;
 
-const Template = (props: InputProps) => <Input {...props} />;
+const Template = (args: InputProps) => <Input {...args} />;
 
 export const Default = Template.bind({});
+Default.args {
+    label: 'Full Name',
+}
