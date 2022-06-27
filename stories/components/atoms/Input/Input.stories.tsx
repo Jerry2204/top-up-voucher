@@ -9,6 +9,6 @@ export default {
 const Template = (args: InputProps) => <Input {...args} />;
 
 export const Default = Template.bind({});
-Default.args {
-    label: 'Full Name',
-}
+Default.args = {
+  label: 'Nama Lengkap',
+};
